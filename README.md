@@ -152,5 +152,30 @@
          <li>Em seguida, confirmo o arquivo tanto no kali linux, quanto na máquina metasploitable, utilizando os comandos no kali: "ls" e "cat" </li>
    </ul>
 
-   
-   
+   <h3>Recomendações de mitigação</h3>
+   <ul>
+     <li>Política de senhas fortes e rotação períodica (de 3 em 3 meses).</li>
+     <li>Bloquei/backoff após N tentativas sem sucesso.</li>
+     <li>Autenticação multifator (MFA).</li>
+     <li>Restringir serviços a redes internas/VPN.</li>
+     <li>Uso de VPN, Proxy e firewall bem configurado.</li>
+     <li>Monitoramento e alertas para padrões de brute force.</li>
+     <li>Atualizar sempre softwares como: OpenSSH, Samba, vsftpd.</li>
+     <li>Realizar palestras, educações corporativas aos colaboradores sobre o uso de senhas, phishing e computadores abertos sem a presença do usuário.</li>
+     <li>Manter servidores sempre atualizados.</li>
+   </ul>
+
+   <h3>Referências e materiais de estudo</h3>
+   <ul>
+     <li><a href="https://dio.me">BOOTCAMP DIO</a></li>
+     <li><a href="https://www.kali.org/docs/"> Documentação Kali Linux</a></li>
+     <li><a href="https://www.kali.org/tools/enum4linux/">Enum4linux</a></li>
+     <li><a href="https://www.kali.org/tools/medusa/">Medusa</a>
+     <li><a href="https://nmap.org/man/pt_BR/">Nmap</a></li>
+     <li>
+<a href="https://www.reddit.com/r/ssh/comments/1c5s1f3/unable_to_negotiate_no_matching_host_key_type/">Problema/Solução</a></li>
+   </ul>
+
+   <h3> Agradecimentos Finais </h3>
+   <p>Gostaria de agradecer a todos os instrutores que participaram da logística desse projeto, foi uma enorme satisfação poder aprender sobre as etapas, a prática e poder compreender sobre os perigos que as simples ações por erro humano podem gerar, mas principalmente agradecer a Digital Innovations One por conceder uma vaga a este bootcamp bem projetado, a todos, meus sinceros agradecimentos!
+   Todas as imagens de código e ferramentas utilizadas estarão na pasta "Imagens" deste repositório.</p>
